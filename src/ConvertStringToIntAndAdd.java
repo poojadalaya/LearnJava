@@ -4,6 +4,8 @@ public class ConvertStringToIntAndAdd {
     public static void main(String args[]) {
         String sum = addStrings("123", "11");
         System.out.println(sum);
+        sum = add("999", "8998");
+        System.out.println("Sum simple method:"+sum);
     }
 
     public static String addStrings(String num1, String num2) {
@@ -24,5 +26,11 @@ public class ConvertStringToIntAndAdd {
             sb.append(carry);
         }
         return sb.reverse().toString();
+    }
+
+    public static String add(String num1, String num2) {
+        int n1 = Integer.parseInt(num1);
+        int n2 = Integer.parseInt(num2);
+        return String.valueOf(n1+n2);
     }
 }
