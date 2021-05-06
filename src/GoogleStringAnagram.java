@@ -17,6 +17,8 @@ public class GoogleStringAnagram {
     *           -> Increment r check if we didn't overflow and add 1 to rth position in h2
     * 5) Loop through 4 until S2's window is valid.
     *
+    * Logic credit:
+    * https://www.geeksforgeeks.org/check-if-a-string-contains-an-anagram-of-another-string-as-its-substring/
     * */
 
     public static void main(String args[]) {
